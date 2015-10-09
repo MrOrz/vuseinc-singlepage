@@ -1990,7 +1990,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #EF6048;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2000,10 +2000,10 @@
 		cursor: pointer;
 		outline: 0;
 		font-weight: 300;
-		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 	}
 
 		input[type="button"]:hover,
@@ -2012,7 +2012,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #D35442;
 		}
 
 		input[type="button"].alt,
@@ -2030,6 +2030,15 @@
 			.button.alt:hover {
 				background: #3B353C;
 			}
+
+    .HeaderIcon {
+		border: 2px solid #fff;
+		background: transparent;
+    }
+
+    .HeaderIcon:hover {
+    	border-color: transparent;
+    }
 
 /* Post */
 
@@ -2096,7 +2105,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/vuse-header.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
